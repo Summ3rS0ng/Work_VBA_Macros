@@ -1,6 +1,8 @@
 
 'Calculate countIndex, searchValue, columnIndex
 Sub weekly_aggregates()
+    'Declarations
+    Application.ScreenUpdating = False
     'preparation
     Dim columnIndex As Integer
     Dim i As Long
